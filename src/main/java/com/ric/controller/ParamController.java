@@ -11,9 +11,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
  * @Date 2020/9/10
  */
 @Controller
+@RequestMapping("/param")
 public class ParamController {
 
-    @RequestMapping("/param")
+    @RequestMapping("/user")
     public String testParm(String username){
         System.out.println("执行了");
         System.out.println(username);
