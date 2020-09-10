@@ -12,7 +12,7 @@
 </head>
 <body>
 
-<a href="/hello">点击我</a>
+<a href="hello">点击我</a>
 
 </body>
 </html>

@@ -1,6 +1,5 @@
 package com.ric.controller;
 
-import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
@@ -10,7 +9,7 @@ public class HelloController {
     public String sayHello(){
         System.out.println("hello world!");
         return "success";
-        
+
 
     }
 
